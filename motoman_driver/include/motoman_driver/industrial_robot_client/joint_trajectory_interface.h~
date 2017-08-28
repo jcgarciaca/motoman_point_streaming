@@ -346,9 +346,6 @@ protected:
   SmplMsgConnection* connection_;
   ros::Subscriber sub_cur_pos_;  // handle for joint-state topic subscription
   ros::Subscriber sub_joint_trajectory_;  // handle for joint-trajectory topic subscription
-
-  ros::Subscriber sub_joint_command_; // handle for joint-trajectory topic subscription
-
   ros::ServiceServer srv_joint_trajectory_;  // handle for joint-trajectory service
   ros::Subscriber sub_joint_trajectory_ex_;  // handle for joint-trajectory topic subscription
   ros::ServiceServer srv_joint_trajectory_ex_;  // handle for joint-trajectory service
